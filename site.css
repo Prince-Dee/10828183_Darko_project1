@@ -1,0 +1,21 @@
+.whole {
+	margin-top:250px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+html {
+	color:white;
+}
+
+button {
+	width:250px;
+	height: 40px;
+	background-color:orange;
+	color:white;
+}
+
+body {
+	background-color: rgba(0,0,0,0.8);
+}

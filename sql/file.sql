@@ -1,0 +1,16 @@
+create database SOFTWARE_ENG;
+use SOFTWARE_ENG;
+
+CREATE TABLE users(
+id INT PRIMARY KEY AUTO_INCREMENT,
+fname VARCHAR(255) NOT NULL,
+lname VARCHAR(255) NOT NULL,
+sn BIGINT,
+dob VARCHAR(255),
+contact VARCHAR(255),
+email VARCHAR(255),
+password VARCHAR(255)
+);
+
+SELECT * FROM users;
+DELETE FROM users;

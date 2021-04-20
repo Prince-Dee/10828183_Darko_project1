@@ -1,0 +1,36 @@
+body{
+	 margin: 0 ;
+  padding: 0;
+	background-image: url("24.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+	color:white;
+}
+
+button {
+	width:150px;
+	height:40px;
+	background-color:orange;
+	color:white;
+}
+.container{
+ 	width: 960px;
+ 	margin: 200px;
+ 	background-color: lightblue;
+ }
+
+ .first {
+ 	display:flex;
+ 	justify-content: center;
+	align-items: center; 
+}
+header{
+ 	display:flex;
+ 	justify-content: center;
+	align-items: center; 
+	
+}
